@@ -1,0 +1,31 @@
+.deleteUser {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.deleteUser div {
+    display: grid;
+    justify-content: center;
+}
+
+.deleteUser button {
+    width: 100px;
+    height: 25px;
+    background-color: #6B6E91;
+    color: white;
+    border: none;
+    border-radius: 1px;
+}
+
+.deleteUser button:hover {
+    outline: 1px solid #95CF30;
+    box-shadow: 1px 1px 5px #95CF30;
+}
+
+.deleteUser button:active {
+    outline: 1px solid #95CF30;
+    background-color: #95CF30;
+    color: black;
+    box-shadow: 1px 1px 5px #95CF30;
+}

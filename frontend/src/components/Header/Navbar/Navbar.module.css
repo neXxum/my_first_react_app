@@ -1,0 +1,55 @@
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.btnContainer {
+    color: #212E0A;
+    background-color: #95CF30;
+}
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    color: #212E0A;
+    background-color: #95CF30;
+    height: 50px;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    transition: .3s;
+    border: 0;
+    cursor: pointer;
+}
+
+.nav :hover {
+    background: #b6e07a;
+    color: #212E0A;
+}
+
+.button {
+    position: absolute;
+    margin: 80px 0 0 1450px;
+}
+
+.button button {
+    min-width: 100px;
+    height: 25px;
+    background-color: #6B6E91;
+    color: white;
+    border: none;
+    border-radius: 1px;
+}
+
+.button button:hover {
+    outline: 1px solid #95CF30;
+    box-shadow: 1px 1px 5px #95CF30;
+}
+
+.button button:active {
+    outline: 1px solid #95CF30;
+    background-color: #95CF30;
+    color: black;
+    box-shadow: 1px 1px 5px #95CF30;
+}

@@ -1,0 +1,58 @@
+.user {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-bottom: 2px solid #95CF30;
+    min-width: 1000px;
+    height: 65px;
+    font-size: 20px;
+    color: #6B6E91;
+}
+
+.user:hover .deleteOrChange button {
+    color: #95CF30;
+}
+
+.user h6 {
+    margin: 0;
+    margin: 7px 0 0 0;
+
+}
+
+.userButton {
+    padding: 0;
+    border: none;
+    font: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+    color: #95CF30;
+
+}
+
+.userButton :hover {
+
+    color: #b6e07a;
+    text-shadow: 1px 1px 5px #95CF30;
+}
+
+.userName {
+    transition: .15s;
+}
+
+.deleteOrChange {
+    display: grid;
+    justify-content: center;
+}
+
+.deleteOrChange button {
+    color: #1C1E26;
+    width: 60px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteOrChange button:hover {
+    color: #b6e07a;
+    text-shadow: 1px 1px 5px #95CF30;
+}
